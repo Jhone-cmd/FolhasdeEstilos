@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*
+
+body{
+    font: 100% ;
+    font-family: Dancing Script;
+    margin: 20px;
+    line-height: 26px;
+    background-color: aqua;
+}
+.wrapper{
+    position: relative;
+    overflow: auto;
+ }
+
+ #top{
+     
+     border: 2px solid ;
+     text-align: center;
+     padding:  35px;
+     padding-bottom: 0;
+ }
+
+ #top h1{
+     font-family: Satisfy;
+     font-size: 60px;
+ }
+
+ #top p{
+     font-family: Orbitron;
+     font-size: 110%;
+     line-height:  80px;
+     padding-bottom: 0;
+ }
+
+ #menubar{
+    margin-top: 5px;
+  
+}
+
+ #menulist{
+    margin-left: 450px;
+    padding: 5px;
+    position: relative;
+    overflow: auto;    
+ }
+ 
+ .item-menu{
+     font: 30px Tangerine;
+     font-weight: bold;
+     list-style-type: none;
+     border:  1px  solid ;
+     float: left;
+     text-align: center;
+     padding: 10px;
+     cursor: pointer;
+     margin: 5px;
+ }
+
+ .item-menu:hover{
+     background-color: white;
+    color: blue;
+    text-decoration: underline;
+ }
+
+ #main{
+    margin-left: 250px;
+    text-align: center;
+    padding: 12px;
+    
+ }
+#main h1, #main h2 {
+    
+    font-size: 40px;
+    padding: 15px;
+}
+
+#main p{
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+ #sidebar{
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid;
+    padding: 15px;
+    width: 180px;
+    bottom: 0;
+    top: 5px;
+    left: 0;
+    position: absolute;  
+    padding-top: 50px;
+ }
+
+ #sidebar h3, #sidebar p{
+     padding-top: 40px;
+ }
+
+ #bottom{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-top: 1px;  
+    padding-top: 100px;
+    
+ }
+ a{
+     padding-top: 50px;
+     font-size: 40px;
+     font-family: Tangerine;
+     text-decoration: none;
+     font-weight: bolder;
+ }
+
+ a:hover{
+    color: white;
+    text-decoration: underline;
+    border: 1px solid;
+    background-color: blue;
+    padding: 5px;
+ }
+ 
+ #top, #sidebar,  .item-menu, a{
+        border-radius: 5px;
+ }
+#top:hover,  #sidebar:hover{
+     background-color: white;
+     color: rgb(168, 0, 168);
+ }
+
+ #bottom:hover{
+     color: rgb(168, 0, 168);
+     text-decoration: underline;
+ }
+

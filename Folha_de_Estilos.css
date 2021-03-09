@@ -1,0 +1,332 @@
+<style> /*Folha de Estilo 01*/
+        
+        body{
+            font:100% Lucida Sans, Verdana;
+            margin: 20px;
+            line-height: 26px;
+        }
+
+        .wrapper{
+            position: relative;
+            overflow: auto;
+        }
+
+        #top{
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        #top h1, #top p, #menulist{
+            margin: 0;
+            padding: 0;
+        }
+
+        #menubar{
+            width: 200px;
+            float: left;
+        }
+
+        .item-menu{
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            list-style-type: none;
+            padding: 2px;
+            cursor:pointer;
+        }
+
+        .item-menu:hover{
+            background-color: #ffffff;
+        }
+
+        .item-menu:first-child{
+            background-color: #4CAF50;
+            color:white;
+            font-weight: bold;
+        }
+        
+        #main{
+            padding: 10px;
+            margin: 0 210px;
+        }
+
+        #sidebar{
+            background-color: #32a4e7;
+            color: #ffffff;
+            padding: 10px;
+            width: 180px;
+            bottom: 75px;
+            top: 0;
+            right: 0;
+            position: absolute;
+        }
+
+        #bottom{
+            border: 1px solid #d4d4d4;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+
+        #top, #sidebar, #bottom, .item-menu{
+            border-radius: 4px;
+            margin: 4px;
+        }
+
+        a{
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+
+    </style>
+
+<style> /*Folha de Estilo 02*/
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #d14836;
+            line-height: 20px;
+        }
+
+        .wrapper{
+            position: relative;
+            overflow: auto;
+        }
+
+        #top{
+            color: #ffffff;
+            padding: 15px;
+            font-size: 30px;
+            line-height: 26px;
+        }
+
+        #top h1{
+            margin: 0;
+            line-height: 50px;          
+        }
+
+        #menubar{
+            width: 190px;
+            float: right;
+        }
+
+        #menulist{
+            padding: 0;
+            font: 16px Verdana;
+        }
+
+        .item-menu{
+            width: 160px;
+            background-color: #d14836;
+            border: 1px solid #d14836;
+            border-radius: 40px;
+            color: #ffffff;
+            list-style-type: none;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .item-menu:hover{
+            background-color: #ffffff;
+            color: #d14836;
+        }
+
+        .item-menu:nth-child(2){
+            background-color: white;
+            color: #d14836;
+            font-weight: bold;
+        }
+
+        #main{
+            padding: 25px;
+            background-color: #ffffff;
+            font: 80% Verdana;
+        }
+
+        #main h1, #main h2{
+            color: #d14836;
+        }
+
+        #sidebar{
+            background-color: #F6DAD7;
+            color: #d14836;
+            padding: 10px;
+            
+        }
+
+        #sidebar h3, #sidebar p{
+
+            margin-left: 10px;
+        }
+
+        #bottom{
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            color: #ffffff;
+        }
+
+        a{
+            color: #d14836;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+    </style> 
+
+ <style> /*Folha de Estilo 03*/
+
+        body{
+            font: 100% Verdana;
+            margin: 20px;
+            line-height: 26px;
+        }
+
+        .wrapper{
+            position: relative;
+            overflow: auto;
+        }
+    
+        h1, h2, h3{
+            color: #4CAF50;
+        }
+        
+        #menulist{
+            padding: 0;
+            position: relative;
+            overflow: auto;
+        }
+
+        .item-menu{
+            width: 190px;
+            float: left;
+            background-color: #555555;
+            color: #ffffff;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .item-menu:nth-child(3){
+            background-color: #4CAF50;
+        }
+
+        .item-menu:hover{
+            background-color: #999999;
+        }
+
+        #sidebar{
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            padding-left: 10px;
+            margin-top: 15px;
+        }
+
+        #bottom{
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+
+        a{
+            color: #000000;
+        }
+
+        a:hover{
+            color: #84c754;
+        }      
+
+    </style> 
+
+    <style>/* Folha de Esilo 04*/
+
+        body{
+            font: 100% Courier New;
+            margin: 20px;
+            line-height: 26px;
+            background-color: #000000;
+        }
+
+        .wrapper{
+            position: relative;
+            overflow: auto;
+        }
+
+        #top{
+            color: #84c754;
+            padding: 15px;
+        }
+
+        #top h1, #top p{
+            margin: 0;
+        }
+        
+        .item-menu{
+            color: #84c754;
+            cursor: pointer;
+        }
+        .item-menu:nth-child(4){
+            color: white;
+            font-weight: bold;
+        }
+
+        .item-menu:hover{
+            color:  #ffffff;
+        }
+
+        #main{
+            padding: 10px;
+            color: #84c754;
+        }
+        
+
+      #sidebar{
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          border-radius: 4px;
+          padding: 10px;
+          width: 320px;
+          top: 0;
+          right: 0;
+          position: absolute;
+          font-size: 80%;
+          line-height: 20px;
+
+      }
+
+      #bottom{
+          border: 1px solid #ffffff;
+          border-radius: 4px;
+          color: #ffffff;
+          text-align: center;
+          padding: 10px;
+          font-size: 70%;
+          line-height: 14px;
+          margin-top: 15px;
+
+      }
+
+      a{
+          color: #ffffff;
+
+      }
+
+      a:hover{
+          color: #84c754;
+      }
+
+    </style>
